@@ -1,7 +1,7 @@
 node{
     
     stage('checkout'){
-        git 'https://github.com/shubhamkushwah123/insurance-project-demo.git'
+        git 'https://github.com/chouhan2015/DevOps-Insurance-project.git'
     }
     
     stage('maven build'){
@@ -36,7 +36,7 @@ node{
     }
 
     stage('checkout'){
-        git 'https://github.com/shubhamkushwah123/insurance-project-demo.git'
+        git 'https://github.com/chouhan2015/DevOps-Insurance-project.git'
     }
     
      stage('Deploy to Test'){
